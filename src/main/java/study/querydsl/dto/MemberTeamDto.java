@@ -1,6 +1,7 @@
 package study.querydsl.dto;
 
 import com.querydsl.core.annotations.QueryProjection;
+import lombok.Data;
 
 /**
  * @Description:
@@ -14,6 +15,7 @@ import com.querydsl.core.annotations.QueryProjection;
  * 2023-11-01        shlim       최초 생성
  */
 
+@Data
 public class MemberTeamDto {
 
     private Long memberId;
